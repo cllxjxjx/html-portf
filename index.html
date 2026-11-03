@@ -1,483 +1,287 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Jalal Rizayev | UFAZ Portfolio</title>
-
 </head>
+<style>
+#name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th{
+    background-color: #2c3e50;
+    color: white;
+    
+}
+td{
+    background-color: grey;
+}
+header{
+    font-size: 17px;
+}
+a{
+    color:red;
+    font-weight: bold;
+}
+li{
+    font-style: italic;
+}
+body{
+    font-size: 20px;
+}
+#td{
+    font-style: italic;
+}
+#caption{
+    text-align: center;
+}
+</style>
+
+
+
+
+
 
 <body>
-
     <!-- HEADER -->
-
     <header>
-
-        <h1>UFAZ</h1>
-
-        <h2>University of Franco-Azerbaijani</h2>
-
-        <p>Student Academic Portfolio</p>
-
-        <h2>JALAL RIZAYEV</h2>
-
-        <p>BSc Computer Science Student</p>
-
-        <p>Baku, Azerbaijan</p>
-
+        <table width="100%">
+            <tr>
+                <td>
+                    <h1>UFAZ</h1>
+                    <h3>UNIVERSITY OF FRANCE-AZERBAIJANI</h3>
+                    <p>Student Academic Portfolio</p>
+                </td>
+                <td align="right">
+                    <h2 id="name">JALAL RIZAYEV</h2>
+                    <p>BSc Computer Science Student</p>
+                    <p>Baku, Azerbaijan</p>
+                </td>
+            </tr>
+        </table>
         <hr>
-
-        
-
-        <nav aria-label="Main navigation">
-
-            <ul>
-
-                <li><a href="#home">Home</a></li>
-
-                <li><a href="#education">Education</a></li>
-
-                <li><a href="#qualifications">Qualifications</a></li>
-
-                <li><a href="#skills">Skills</a></li>
-
-                <li><a href="#projects">Projects</a></li>
-
-                <li><a href="#experience">Experience</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
-
-            </ul>
-
+        <!-- NAVIGATION -->
+        <nav>
+            <table width="100%">
+                <tr align="center">
+                    <td><a href="#home">Home</a></td>
+                    <td><a href="#education">Education</a></td>
+                    <td><a href="#qualifications">Qualifications</a></td>
+                    <td><a href="#skills">Skills</a></td>
+                    <td><a href="#projects">Projects</a></td>
+                    <td><a href="#experience">Experience</a></td>
+                    <td><a href="#contact">Contact</a></td>
+                    
+                </tr>
+            </table>
         </nav>
-
         <hr>
-
     </header>
-
-    
-
+    <!-- MAIN CONTENT -->
     <main>
-
-        
-
+        <!-- HOME -->
         <section id="home">
-
-            <h2>Welcome to My Portfolio</h2>
-
+            <h1 id = "caption">Welcome to My Portfolio</h1>
             <figure>
-
                 <img
-
                     src="https://placehold.co/900x250/eeeeee/333333?text=Jalal+Rizayev+-+Computer+Science"
-
-                    alt="Jalal Rizayev Computer Science Portfolio Banner"
-
-                    width="900"
-
-                    height="250"
-
+                    alt="Jalal Rizayev Portfolio Banner"
+                    width="100%"
                 >
-
                 <figcaption>
-
                     Academic and Professional Portfolio
-
                 </figcaption>
-
             </figure>
-
-            <h3>About Me</h3>
-
+            <h2>About Me</h2>
             <p>
-
                 I am a Computer Science student at the University of
-
                 Franco-Azerbaijani (UFAZ), based in Baku, Azerbaijan.
-
                 I am interested in programming, software development,
-
                 technology, and computer science.
-
             </p>
-
             <p>
-
                 My academic interests include software engineering,
-
                 backend development, programming languages, and
-
                 building functional applications.
-
             </p>
-
         </section>
-
         <hr>
-
         <!-- EDUCATION -->
-
         <section id="education">
-
-            <h2>Academic Background</h2>
-
-            <h3>Diplomas of Tertiary Studies</h3>
-
-            <table>
-
-                <caption>Academic Qualifications</caption>
-
-                <thead>
-
-                    <tr>
-
-                        <th scope="col">Degree</th>
-
-                        <th scope="col">Institution</th>
-
-                        <th scope="col">Location</th>
-
-                        <th scope="col">Period</th>
-
-                    </tr>
-
-                </thead>
-
-                <tbody>
-
-                    <tr>
-
-                        <td>BSc in Computer Science</td>
-
-                        <td>University of Franco-Azerbaijani (UFAZ)</td>
-
-                        <td>Baku, Azerbaijan</td>
-
-                        <td>2025 – Present</td>
-
-                    </tr>
-
-                </tbody>
-
+            <h1 id="caption">Academic Background</h1>
+            <h2>Diplomas of Tertiary Studies</h2>
+            <table border="1" cellpadding="10" width="100%">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Location</th>
+                    <th>Period</th>
+                </tr>
+                <tr>
+                    <td>BSc in Computer Science</td>
+                    <td>
+                        University of Franco-Azerbaijani (UFAZ)
+                    </td>
+                    <td>Baku, Azerbaijan</td>
+                    <td>2025 – Present</td>
+                </tr>
             </table>
-
         </section>
-
         <hr>
-
-        
-
+        <!-- QUALIFICATIONS -->
         <section id="qualifications">
-
-            <h2>Professional Qualifications</h2>
-
+            <h1 id = "caption">Professional Qualifications</h1>
             <p>
-
                 Currently developing academic and technical
-
                 qualifications through university coursework,
-
                 independent learning, and practical programming projects.
-
             </p>
-
             <h3>Areas of Interest</h3>
-
             <ul>
-
                 <li>Software Engineering</li>
-
                 <li>Backend Development</li>
-
                 <li>Computer Science</li>
-
                 <li>Database Management</li>
-
                 <li>Web Development</li>
-                <li> Game Development</li>
-
             </ul>
-
         </section>
-
         <hr>
-
-        
-
+        <!-- SKILLS -->
         <section id="skills">
-
-            <h2>Technical Skills</h2>
-
-            <table>
-
-                <caption>Technical Skills and Technologies</caption>
-
-                <thead>
-
-                    <tr>
-
-                        <th scope="col">Category</th>
-
-                        <th scope="col">Technologies</th>
-
-                    </tr>
-
-                </thead>
-
-                <tbody>
-
-                    <tr>
-
-                        <th scope="row">Programming Languages</th>
-
-                        <td>C, Python, C#</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Frameworks and Libraries</th>
-
-                        <td>Unity, NumPy, Matplotlib</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Development Tools</th>
-
-                        <td>Git, VS Code, CLion, Rider</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Operating Systems</th>
-
-                        <td>Windows, Linux</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Office Software</th>
-
-                        <td>MS Office, LibreOffice</td>
-
-                    </tr>
-
-                </tbody>
-
+            <h1 id = "caption">Technical Skills</h1>
+            <table border="1" cellpadding="10" width="100%">
+                <tr>
+                    <th>Category</th>
+                    <th>Technologies</th>
+                </tr>
+                <tr>
+                    <td><b>Programming Languages</b></td>
+                    <td id = "td">C, Python, C#</td>
+                </tr>
+                <tr>
+                    <td><b>Frameworks and Libraries</b></td>
+                    <td id = "td">Unity, NumPy, Matplotlib</td>
+                </tr>
+                <tr>
+                    <td><b>Development Tools</b></td>
+                    <td id = "td">Git, VS Code, CLion, Rider</td>
+                </tr>
+                <tr>
+                    <td><b>Operating Systems</b></td>
+                    <td id = "td">Windows, Linux</td>
+                </tr>
+                <tr>
+                    <td><b>Office Software</b></td>
+                    <td id = "td">MS Office, LibreOffice</td>
+                </tr>
             </table>
-
-            <h3>Programming Languages</h3>
-
+            <h2>Programming Languages</h2>
             <ul>
-
                 <li>C — Programming and algorithm development</li>
-
                 <li>Python — General-purpose programming and scientific computing</li>
-
                 <li>C# — Application and game development</li>
-
             </ul>
-
         </section>
-
         <hr>
-
-        
-
+        <!-- PROJECTS -->
         <section id="projects">
-
-            <h2>Projects and Development</h2>
-
+            <h1 id = "caption">Projects and Development</h1>
             <article>
-
-                <h3>Web Application Development</h3>
-
+                <h2>Web Application Development</h2>
                 <p>
-
                     Developed a web application as part of a university
-
                     course assignment using Express.js, Node.js, and MySQL.
-
                 </p>
-
-                <h4>Technologies Used</h4>
-
+                <h3>Technologies Used</h3>
                 <ul>
-
                     <li>Node.js</li>
-
                     <li>Express.js</li>
-
                     <li>MySQL</li>
-
                     <li>HTML</li>
-
                 </ul>
-
                 <p>
-
                     The project resulted in a functional backend
-
                     deployment integrated with frontend elements.
-
                 </p>
-
             </article>
-
             <article>
-
-                <h3>Personal Web Development</h3>
-
+                <h2>Personal Web Development</h2>
                 <p>
-
                     Exploring website development, HTML structures,
-
                     web hosting, and server deployment.
-
                 </p>
-
             </article>
-
         </section>
-
         <hr>
-
-        
-
+        <!-- EXPERIENCE -->
         <section id="experience">
-
-            <h2>Further Experience</h2>
-
-            <h3>Project Design and Development</h3>
-
+            <h1 id = "caption">Further Experience</h1>
+            <h2>Project Design and Development</h2>
             <p>
-
                 Developed a web application for a university assignment,
-
                 implementing backend functionality and integrating
-
                 frontend components.
-
             </p>
-
             <h3>Additional Activities</h3>
-
             <ul>
-
                 <li>Independent programming practice</li>
-
                 <li>Academic problem solving</li>
-
                 <li>Learning new technologies</li>
-
                 <li>Working with development environments</li>
-
             </ul>
-
         </section>
-
         <hr>
-
-       
-
         
-
         
-
+        <!-- CONTACT -->
         <section id="contact">
-
-            <h2>Contact Information</h2>
-
-            <table>
-
-                <tbody>
-
-                    <tr>
-
-                        <th scope="row">Name:</th>
-
-                        <td>Jalal Rizayev</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Location:</th>
-
-                        <td>Baku, Azerbaijan</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Phone:</th>
-
-                        <td>+994 000 00 00</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th scope="row">Email:</th>
-
-                        <td>
-
-                            <a href="mailto:rizayevcelal1@gmail.com">
-
-                                rizayevcelal1@gmail.com
-
-                            </a>
-
-                        </td>
-
-                    </tr>
-
-                </tbody>
-
+            <h1 id ="caption">Contact Information</h1>
+            <table cellpadding="8">
+                <tr>
+                    <td><b>Name:</b></td>
+                    <td>Jalal Rizayev</td>
+                </tr>
+                <tr>
+                    <td><b>Location:</b></td>
+                    <td>Baku, Azerbaijan</td>
+                </tr>
+                <tr>
+                    <td><b>Phone:</b></td>
+                    <td>+994 000 00 00</td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td>
+                        <a href="mailto:rizayevcelal1@gmail.com">
+                            rizayevcelal1@gmail.com
+                        </a>
+                    </td>
+                </tr>
             </table>
-
         </section>
-
     </main>
-
-   
-
+    <!-- FOOTER -->
     <footer>
-
         <hr>
-
-        <h2>JALAL RIZAYEV</h2>
-
-        <p>Computer Science Student | UFAZ</p>
-
-        <p>
-
-            <a href="#home">Back to Top</a>
-
-        </p>
-
+        <table width="100%">
+            <tr>
+                <td>
+                    <h2>JALAL RIZAYEV</h2>
+                    <p>Computer Science Student | UFAZ</p>
+                </td>
+                <td align="right">
+                    <a href="#home">Back to Top ↑</a>
+                </td>
+            </tr>
+        </table>
         <hr>
-
-        <p>
-
-            &copy; 2026 Jalal Rizayev. All Rights Reserved.
-
+        <p align="center">
+            © 2026 Jalal Rizayev. All Rights Reserved.
         </p>
-
-        <p>Built with HTML.</p>
-
+        <p align="center">
+            Built with HTML.
+        </p>
     </footer>
-
 </body>
-
 </html>
